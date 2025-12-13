@@ -63,12 +63,12 @@ const Home = () => {
           <div className="space-y-6 sm:space-y-8 text-center lg:text-left">
             <div className="space-y-4 sm:space-y-6">
               <h1 className="text-7xl lg:text-8xl font-black leading-none tracking-tight">
-                <span className="block font-black text-white">Create.</span>
+                <span className="block font-black text-white">Share</span>
                 <span className="block font-light italic text-purple-300">
-                  Publish.
+                  Your
                 </span>
                 <span className="block font-black bg-gradient-to-r from-blue-400 via-purple-400 to-green-400 bg-clip-text text-transparent">
-                  Grow.
+                  Ideas.
                 </span>
               </h1>
 
@@ -353,8 +353,8 @@ const Home = () => {
             <span className="gradient-text-primary">Ready to create?</span>
           </h2>
           <p className="text-xl text-gray-400 mb-8 sm:mb-12 max-w-2xl mx-auto">
-            Join thousands of creators who are already building their audience
-            and growing their business with our AI-powered platform.
+            Join creators community who are already building their audience and
+            growing their business with our AI-powered platform.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-6 justify-center">
@@ -385,8 +385,10 @@ const Home = () => {
       <footer className="relative z-10 border-t py-8 px-4 sm:px-6">
         <div className="max-w-7xl mx-auto text-center">
           <p className="text-muted-foreground">
-            Made with ❤️ by{" "}
-            <span className="text-foreground font-semibold">RoadsideCoder</span>
+            Made with <span> &lt;/&gt;</span> by{" "}
+            <span className="text-foreground font-semibold">
+              Siddhant Patel
+            </span>
           </p>
         </div>
       </footer>

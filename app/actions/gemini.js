@@ -14,7 +14,7 @@ export async function generateBlogContent(title, category = "", tags = []) {
 
     // Create a detailed prompt for blog content generation
     const prompt = `
-Write a comprehensive blog post with the title: "${title}"
+Write a comprehensive blog post with the title: "${title}" 
 
 ${category ? `Category: ${category}` : ""}
 ${tags.length > 0 ? `Tags: ${tags.join(", ")}` : ""}
