@@ -10,7 +10,7 @@ export async function generateBlogContent(title, category = "", tags = []) {
       throw new Error("Title is required to generate content");
     }
 
-    const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash" });
+    const model = genAI.getGenerativeModel({ model: "gemini-2.0-flash" });
 
     // Create a detailed prompt for blog content generation
     const prompt = `
@@ -76,7 +76,7 @@ Start directly with the introduction paragraph.
 
 export async function improveContent(
   currentContent,
-  improvementType = "enhance"
+  improvementType = "enhance",
 ) {
   try {
     if (!currentContent || currentContent.trim().length === 0) {
